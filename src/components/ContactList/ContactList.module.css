@@ -1,0 +1,34 @@
+.contacts {
+  margin: 2rem auto;
+  width: 95%;
+}
+.img_add_contact {
+  width: 100px;
+}
+.contacts ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.contacts li {
+  border: 1px solid #ccc;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.li_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 500px;
+  height: 250px;
+  margin: 3px 10px;
+  padding: 5px 5px;
+}

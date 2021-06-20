@@ -1,0 +1,50 @@
+.li {
+  display: flex;
+  flex: 1 1 500px;
+  height: 250px;
+  margin: 3px 10px;
+  padding: 5px 5px;
+  justify-content: space-between;
+}
+
+.div_Img_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.delete_img {
+  width: 30px;
+  margin: 2px;
+}
+
+.edit_img {
+  width: 30px;
+  margin: 2px;
+}
+.div_img_edit_del {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.img_edit_del {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .li {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+}
